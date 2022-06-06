@@ -1,0 +1,45 @@
+.navWrapper{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+.btn{
+    border-radius: 34px;
+    overflow: hidden;
+    color: white;
+    background: black;
+    padding: 12px;    
+}
+
+.navLeft{
+    flex: 1;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+}
+
+.name{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.navRight{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+
+
+}
+.navList{
+    flex: 10;
+
+}
+.navList ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    margin-right: 2rem;
+}
+
